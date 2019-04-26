@@ -15,13 +15,14 @@ public class Cadastro extends JFrame implements ActionListener{
     private String n1,n2,n3;
     int contador=0;
     public Cadastro(){
+   		//
         super("Cadastro de Clintes");
         setSize(400,400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
         
         
-        //Botões
+        
 
 	cadas=new JButton("Cadastro");
 	consul=new JButton("Consulta");
